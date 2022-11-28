@@ -1,0 +1,7 @@
+body {
+  background-color: var(--darkCyan);
+}
+
+h1 {
+  color: var(--veryDarkDesaturatedBlue);
+}
