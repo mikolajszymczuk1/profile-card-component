@@ -12,13 +12,54 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
-  <div id="app">
-    <h1>Hello World !</h1>
-  </div>
+  <!-- Background decorations -->
+  <img class="decoration decoration--top" src="./src/assets/svg/bg-pattern-top.svg" alt="Top circle decoration" title="Background decoration">
+  <img class="decoration decoration--bottom" src="./src/assets/svg/bg-pattern-bottom.svg" alt="Bottom circle decoration" title="Background decoration">
+
+  <main class="main-container">
+    <!-- Profile card component -->
+    <div class="profile-card">
+      <div class="profile-card__top-banner"></div>
+      <!-- Main card content -->
+      <div class="profile-card__content">
+        <img class="profile-card__avatar"
+          src="./src/assets/images/image-victor.jpg"
+          alt="Avatar image"
+          title="Avatar image"
+        >
+
+        <p class="profile-card__fullname">Victor Crest
+          <span class="profile-card__age">26</span>
+        </p>
+
+        <p class="profile-card__city">London</p>
+
+        <!-- Bottom banner of card -->
+        <div class="profile-card__bottom-banner">
+          <!-- Followers -->
+          <div class="profile-card__count-block">
+            <p class="profile-card__count-number">80K</p>
+            <p class="profile-card__count-text">Followers</p>
+          </div>
+
+          <!-- Likes -->
+          <div class="profile-card__count-block">
+            <p class="profile-card__count-number">803K</p>
+            <p class="profile-card__count-text">Likes</p>
+          </div>
+
+          <!-- Photos -->
+          <div class="profile-card__count-block">
+            <p class="profile-card__count-number">1.4K</p>
+            <p class="profile-card__count-text">Photos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
   <script type="module" src="/main.js"></script>
 </body>
 
